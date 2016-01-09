@@ -7,24 +7,30 @@
   </head>
   <body>
   <img src= "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12105693_10102816920495604_8577492368062294994_n.jpg?oh=c964d5ba437d268661a531b90182ad73&oe=57003DA0" alt="Profile picture" height="120" width="120">
-    <h1> Andria Reta's Dev Bootcamp Blog </h1>
-    <ul>
-      <li> About me
-        <ul>
-          <li> Early Years </li>
-          <li> Career </li>
-          <li> Special Interests </li>
+    <header>
+      <h1> <center>Andria Reta's Dev Bootcamp Blog </center></h1>
+     </header>
+    <nav>
+      <ul>
+        <li> About me
+          <ul>
+            <li> Early Years </li>
+            <li> Career </li>
+            <li> Special Interests </li>
+          <ul>
+            <li> <a href="https://www.fistulafoundation.org"> Fistula Foundation</a> </li>
+            <li> <a href="http://www.afripads.com">Afripads </a></li>
       </ul>
         </li>
         <li> Blog Posts </li>
-        <li> Contact Me
+        <li> Contact Me </li>
         <ul>
           <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAWNV5gBWRxpghDVUhy8WcZvkXqZ1lEjEYU&trk=hp-identity-name"> LinkedIn </a> </li>
           <li><a href="https://www.facebook.com/miss.reta.3"> Facebook </a> </li>
           <li><a href="mailto:reta.andriay@gmail.com"> E-mail </a> </li>
           <li><a href="https://github.com/andriayr"> Github Profile</a> </li>
-        </ul>
       </ul>
+     </nav>
       <p>
         <h2>List of Blogs</h2>
         <ol>
@@ -38,4 +44,4 @@
         </ol>
         <p>
 
-<footer> Thanks for Stopping By, Hope You Enjoyed My Blog </footer>
+<footer> <h2><center>Thanks for Stopping By, Hope You Enjoyed My Blog </center> <h2></footer>
