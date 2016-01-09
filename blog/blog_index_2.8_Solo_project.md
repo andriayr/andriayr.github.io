@@ -6,7 +6,7 @@
 
   </head>
   <body>
-  <img src= "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12105693_10102816920495604_8577492368062294994_n.jpg?oh=c964d5ba437d268661a531b90182ad73&oe=57003DA0" alt="Profile picture">
+  <img src= "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12105693_10102816920495604_8577492368062294994_n.jpg?oh=c964d5ba437d268661a531b90182ad73&oe=57003DA0" alt="Profile picture" height="42" width="42">
     <h1> Andria Reta's Dev Bootcamp Blog </h1>
     <ul>
       <li> About me
