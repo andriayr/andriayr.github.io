@@ -38,4 +38,4 @@
         </ol>
         <p>
 
-<h3> Thanks for Stopping By, Hope You Enjoyed My Blog </h3>
+<footer> Thanks for Stopping By, Hope You Enjoyed My Blog </footer>
