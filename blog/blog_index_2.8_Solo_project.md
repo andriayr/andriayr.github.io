@@ -25,8 +25,8 @@
         </ul>
       </ul>
       <p>
+        <h2>List of Blogs</h2>
         <ol>
-            <li>List of Blogs</li>
           <li> <a href= "http://andriayr.github.io/blog/git.html"> Blog Post 1-Version Control</a> </li>
           <li> Blog Post 2  </li>
           <li> Blog Post 3  </li>
