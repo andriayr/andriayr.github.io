@@ -1,5 +1,4 @@
-Link:
-http://andriayr.github.io/
+http://andriayr.github.io/#
 
 
 What did you learn about CSS padding, borders, and margin by doing this challenge?
