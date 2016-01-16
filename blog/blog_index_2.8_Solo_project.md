@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> <head> <link rel="stylesheet" type="text/css" href="./stylesheets/blog.css">
     <title>Andria's DBC Blog</title>
   <meta charset="UTF-8">
 
