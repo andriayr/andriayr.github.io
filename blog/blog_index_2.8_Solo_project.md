@@ -6,7 +6,6 @@
 
   </head>
   <body>
-  <img src= "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12105693_10102816920495604_8577492368062294994_n.jpg?oh=c964d5ba437d268661a531b90182ad73&oe=57003DA0" alt="Profile picture" height="120" width="120">
     <header>
       <h1> <center>Andria Reta's Dev Bootcamp Blog </center></h1>
      </header>
@@ -37,4 +36,4 @@
         </ol>
         <p>
 
-<footer> <h2><center>Thanks for Stopping By, Hope You Enjoyed My Blog </center> <h2></footer>
+<footer> <##>Thanks for Stopping By, Hope You Enjoyed My Blog  <></footer>
