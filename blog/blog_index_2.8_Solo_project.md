@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head> <head> <link rel="stylesheet" type="text/css" href="./stylesheets/blog.css">
-    <title>Andria's DBC Blog</title>
+  <head> <head> <link rel="stylesheet" type="text/css" href="../stylesheets.blog.css">
+    <title>Andria's DBC Blog Index</title>
   <meta charset="UTF-8">
 
   </head>
@@ -10,27 +10,20 @@
     <header>
       <h1> <center>Andria Reta's Dev Bootcamp Blog </center></h1>
      </header>
-    <nav>
-      <ul>
-        <li> About me
-          <ul>
-            <li> Early Years </li>
-            <li> Career </li>
-            <li> Special Interests </li>
-          <ul>
-            <li> <a href="https://www.fistulafoundation.org"> Fistula Foundation</a> </li>
-            <li> <a href="http://www.afripads.com">Afripads </a></li>
-      </ul>
-        </li>
-        <li> Blog Posts </li>
-        <li> Contact Me </li>
-        <ul>
-          <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAWNV5gBWRxpghDVUhy8WcZvkXqZ1lEjEYU&trk=hp-identity-name"> LinkedIn </a> </li>
-          <li><a href="https://www.facebook.com/miss.reta.3"> Facebook </a> </li>
-          <li><a href="mailto:reta.andriay@gmail.com"> E-mail </a> </li>
-          <li><a href="https://github.com/andriayr"> Github Profile</a> </li>
-      </ul>
-     </nav>
+  <body>
+ <div>
+  <ul>
+  <li><a href="http://andriayr.github.io/#">Home</a></li>
+  <li><a href="https://github.com/andriayr/andriayr.github.io/blob/master/blog/blog_index_2.8_Solo_project.md">Blog Index</a></li>
+ <li><a href="https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-photo">Resume </a></li>
+ <li><a href="https://github.com/andriayr">Github</a></li>
+  </ul>
+</div>
+<h1> Hi, I am Andria! Welcome to my page!</h1>
+<div>
+  <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/10849865_10102429785986264_1583478388470420609_n.jpg?oh=d5fec81cb9202908bfc6e5a50c98eacf&oe=5705FDF9" alt="#" width="250" height="250">
+</div>
+
       <p>
         <h2>List of Blogs</h2>
         <ol>
