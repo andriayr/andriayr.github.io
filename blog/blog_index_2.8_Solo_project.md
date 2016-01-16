@@ -18,15 +18,14 @@
  <li><a href="https://github.com/andriayr">Github</a></li>
   </ul>
 </div>
-<h1> Hi, I am Andria! Welcome to my page!</h1>
 <div>
   <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/10849865_10102429785986264_1583478388470420609_n.jpg?oh=d5fec81cb9202908bfc6e5a50c98eacf&oe=5705FDF9" alt="#" width="250" height="250">
 </div>
 
       <p>
-        <h2>List of Blogs</h2>
+        <##>List of Blogs</##>
         <ol>
-          <li> <a href= "http://andriayr.github.io/blog/git.html"> Blog Post 1-Version Control</a> </li>
+          <li> <a href= "http://andriayr.github.io/blog/git.html"> Blog Post 1-Version Control"</a></li>
           <li> Blog Post 2  </li>
           <li> Blog Post 3  </li>
           <li> Blog Post 4 </li>
@@ -36,4 +35,4 @@
         </ol>
         <p>
 
-<footer> <##>Thanks for Stopping By, Hope You Enjoyed My Blog  <></footer>
+<footer> <##>Thanks for Stopping By, Hope You Enjoyed My Blog  <##></footer>
