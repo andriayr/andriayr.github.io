@@ -3,6 +3,8 @@
   <meta charset="UTF-8">
 </head>
 <body>
+  <h1><center>Welcome To My Index Page</h1>
+  <aside><img src="../myAvatar.png" alt="Homer" height="100" width="100">
  <div>
   <ul>
   * [Home](http://andriayr.github.io/)
