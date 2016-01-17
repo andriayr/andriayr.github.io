@@ -5,14 +5,16 @@
 <body>
   <h1><center>Welcome To My Index Page</h1>
   <aside><img src="../myAvatar.png" alt="Homer" height="100" width="100">
- <div>
+<div>
   <ul>
-  * [Home](http://andriayr.github.io/)
-  * [Blog Index](https://github.com/andriayr/andriayr.github.io/blob/master/blog/blog_index_2.8_Solo_project.md")
- * [Resume](https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-photo)
- * [Github](https://github.com/andriayr)
+  <li><a href="http://andriayr.github.io/#">Home</a></li>
+  <li><a href="https://github.com/andriayr/andriayr.github.io/blob/master/blog/blog_index_2.8_Solo_project.md">Blog Index</a></li>
+ <li><a href="https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-photo">Resume </a></li>
+ <li><a href="https://github.com/andriayr">Github</a></li>
+  </ul>
 </div>
- ```Blog Index```
+
+ <h2>Blog Index</h2>
 
 
   1. [Blog 1](http://andriayr.github.io/blog/git.html)
