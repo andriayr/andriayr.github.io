@@ -17,7 +17,7 @@
  <h2>Blog Index</h2>
 
 
-  1. [Blog 1](http://andriayr.github.io/blog/git.html)
+  1. [Blog 1-Git & Github](http://andriayr.github.io/blog/git.html)
   2. [Blog 2](#)
   3. [Blog 3](#)
   4. [Blog 4](#)
