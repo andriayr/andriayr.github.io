@@ -18,7 +18,7 @@
 
 
   1. [Blog 1-Git & Github](http://andriayr.github.io/blog/git.html)
-  2. [Blog 2](#)
+  2. [Blog 2-CSS](http://andriayr.github.io/blog/css-concepts.html)
   3. [Blog 3](#)
   4. [Blog 4](#)
   5. [Blog 5](#)
