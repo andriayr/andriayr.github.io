@@ -1,8 +1,6 @@
 <html>
 <head> <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <meta charset="UTF-8">
-
-<title>Andria Reta</title>
 </head>
 <body>
 
@@ -24,9 +22,10 @@
 
 
 <hr></hr>
-<aside><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"></aside>
-<footer> <p>Thank you for stopping by. Please check out my blog for future posts!</p>
-<p>Copyright &copy; Andria Reta 2015-2016 </p></footer>
+<img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><img src="../imgs/post-6670-Homer-Simpson-Gifs-kvjg.gif" alt="Homer" height="100" width="100"><
+
+#####Thank you for stopping by. Please check out my blog for future posts!
+  ######Copyright &copy; Andria Reta 2015-2016
 </body>
 </html>
 
