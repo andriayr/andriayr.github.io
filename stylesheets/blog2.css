@@ -26,9 +26,12 @@ h2 {
     font-family: Herculanum;
 text-align: center;
 color: black;
+
 }
 
-
+div img {
+    margin-left: 450px;
+}
 footer {
     margin-top: 300px;
     font-family: Herculanum;
