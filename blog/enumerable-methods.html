@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="andriayr.github.io/stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <meta charset="UTF-8">
+
+<title>Andria Reta</title>
+</head>
+<body>
+ <div>
+  <ul>
+  <li><a href="http://andriayr.github.io/#">Home</a></li>
+  <li><a href="http://andriayr.github.io/blog/blogindex.html">Blog Index</a></li>
+ <li><a href="#">Causes I Care 4</a></li>
+ <li><a href="https://github.com/andriayr">Github</a></li>
+  </ul>
+
+<h1> Let's Talk About #Map</h1>
+
+<h3>Jan 30, 2016</h3>
+<h2> Understanding Maps </h2>
+
+    <p>
+    The map method is a very power enumberable in Ruby. Enumerables gives you many useful ways of doing something to every element of a collection of objects (arrays or hashes).This is necessary when you begin building programs, even those that are not very advanced.  </p>
+    <p>Enumerable is a large bunch of methods, and there many to choose from. However, you will only use a dozen of them regularly. When you want to learn about more, there is a full list is available in the docs <a href="http://ruby-doc.org/core-2.0/Enumerable.html">here</a>.  </p>
+
+      <p>
+        #Map is a method that returns a new array filled with whatever gets returned by the block each time it runs.If no block is given, an enumerator is returned instead.</p>
+
+     <p> Below are some code samples that can illustrate the beauty of #map.</p>
+
+      <h5>Example:</h5>
+       <h5> arr= [1,2,3,4,5] </h5>
+
+     <h5> arr.map { |a| 2*a }   #=> [2, 4, 6, 8, 10]</h5>
+      <h5>arr                   #=> [1, 2, 3, 4, 5] </h5>
+
+      <h5>arr.map! { |a| a**2 } #=> [1, 4, 9, 16, 25] </h5>
+      <h5>arr                   #=> [1, 4, 9, 16, 25] </h5>
+
+
+
+    <p> Above you will notice that there are that I have map and map! As you can see using map prints the original value of the array when it is called. However, when we used map! we changed the original value of the array. This difference is called destructive vs. non-destructive. While the <b>destructive<b> operations will modify the array they were called on, the <b>non-destructive <b> methods usually return a new array with the selected elements, but leave the original array unchanged. </p>
+
+
+<footer> <a href="https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-headline"><img src="../imgs/linked-in.png" alt="Fb" height="50" width="50"/> <a href="https://www.facebook.com/miss.reta.3"><img src="../imgs/facebook.png" alt="Fb" height="50" width="50"/> <a href="mailto:reta.andriay@gmail.com"><img src="../imgs/google.png" alt="Fb" height="50" width="50"/></footer>
+<h6> Copyright &copy; Andria Reta 2015-2016</h6>
+</body>
+</html>
