@@ -17,6 +17,8 @@ font-weight: bold;
 margin-right: 100px;
 margin-left: 100px;
 }
+
+}
 h3 { 
 font-family: Herculanum;
 text-align: center;
@@ -33,14 +35,7 @@ footer {
     font-family: Herculanum;
     color: pink;
 }
-h5 {
-    font-family: Herculanum;
-    color: black;
-}
-h6 {
-    color: violet;
-    font-family: Herculanum
-}
+
 ul{
     list-style-type: none;
     overflow: hidden;
