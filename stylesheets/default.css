@@ -1,7 +1,25 @@
+body {
+    background-image: url(../imgs/los-angeles-desktop-wallpaper-for-background-free-download-city-images.jpg);
+}
+h1 {
+    font-family: Herculanum;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+footer {
+    margin-top: 300px;
+    font-family: Herculanum;
+    color: pink;
+}
+footer p {
+    color: pink;
+}
 ul{
     list-style-type: none;
     overflow: hidden;
-    background-color: #cc3300;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 5em;
     -webkit-margin-start: 1px;
@@ -11,9 +29,10 @@ ul{
 
 li {
     float: left;
-    border-right:1px solid #bbb;
     padding-right: 170px;
     font-weight: bold;
+    font-family: Herculanum;
+    font-size: 18px;
 }
 li:last-child {
     border-right: none;
@@ -21,55 +40,11 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover
     {
-    background-color: green;
-}
-div img{
-    display: inline-block;
-    border-opacity:0.5;
-    float:right;
-    margin-right: 2em;
-    margin-top: -1em;
-    position: relative;
-}
-h1 {
-    text-align: center;
-    font:Verdana;
-}
-
-
-hr {
-    margin-top: 7em;
-}
-
-p {
-    font-size: 14px;
-    font-family: Verdana;
-}
-
-footer > p:nth-child(2) {
-    font-size: 8px;
-    font-family:Verdana;
-}
-
-footer > p:first-child {
-    text-align: center;
-    font-size: 15px;
-    font-family:Verdana;
-}
-
-aside {
-    margin-left: 1em;
-}
-.one {
-    background: none;
-    font-family: Verdana;
-    color: black;
-    font-size: 24px;
-}
+    background-color: purple;
