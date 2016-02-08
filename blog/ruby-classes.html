@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="andriayr.github.io/stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../stylesheets/blog8.css">
+  <meta charset="UTF-8">
+
+<title>Andria Reta</title>
+</head>
+<body>
+ <div>
+  <ul>
+  <li><a href="http://andriayr.github.io/#">Home</a></li>
+  <li><a href="http://andriayr.github.io/blog/blogindex.html">Blog Index</a></li>
+ <li><a href="http://andriayr.github.io/blog/about.html">About Me</a></li>
+ <li><a href="https://github.com/andriayr">Github</a></li>
+  </ul>
+
+<h1>Ruby Classes</h1>
+
+<h3>February 7, 2016</h3>
+<p> Ruby is an object-oriented programming (OOP) language. OOP has a construct in Ruby called a class that allows you structure your program in a particular way. When using classes you add consistency to your programs so that they can be used in a more concise, and organized way. A class is a way of taking data and functions and housing them so you can access them when you need to. Below I will demonstrate an example. I will create a class that allows me to print my name: </p>
+
+<xmp style>class Name 
+
+	def initialize(title,first_name,last_name)
+		@title = title 
+    	@first_name = first_name 
+    	@last_name = last_name
+	end 
+
+	def title
+   		@title
+	end
+
+	def first
+   		@first_name
+	end 
+
+	def last
+   		@last_name
+	end 
+end
+
+name = Name.new("Ms.", "Andria", "Reta")
+puts name.title 
+puts name.first_name
+puts name.last_name 
+
+The output:
+"Ms.
+"Andria"
+"Reta"
+
+</xmp>
+
+<p> Above, I created a class called Name, this is a category of an object, and I added some "instance variables" which are objects that belong to that class. In my Name class, I added some attributes of a name in the form of instance variables. You can identify them as instance variables because they have the @ in front. Attributes of names include things such as "title", "first name" and "last name". <p>
+
+	<p> Instance variables belong to the class in which they were created. and are accesible throughout the class. You may also notice that I had some methods that I created. Those method within the class are called "instance methods" and are similar to "instance variables" because they too belong to the class and are accessed throughout the class. You will notice an instance method because the method name is preceeeded with the word "def". A "class definition" starts from the term "class" and reaches the "end" of the method. Once all components have been created, we will finalize this process by "instantiating" the class which means that we are creating a new instance of a clas. This basically means that we are turning this class into object. We instantiated the class Name by using the following "name = Name.new("Ms.", "Andria", "Reta")". "name" is the name we have given to our instance of a class and we put ".new" behind the name of our class to indicate that it is new. The information within the paranthesis represent the variables we have created that were represented by the instance variables. </p> 
+
+	<p> Although classes can be confusing, they are rather helpful, and are a great concept that should be understood when tackling Object Oriented Programming such as Ruby! <p>   
+  
+      
+
+<footer> <a href="https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-headline"><img src="../imgs/linked-in.png" alt="Fb" height="50" width="50"/> <a href="https://www.facebook.com/miss.reta.3"><img src="../imgs/facebook.png" alt="Fb" height="50" width="50"/> <a href="mailto:reta.andriay@gmail.com"><img src="../imgs/google.png" alt="Fb" height="50" width="50"/></footer>
+<h6> Copyright &copy; Andria Reta 2015-2016</h6>
+</body>
+</html>
+
