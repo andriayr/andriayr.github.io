@@ -1,0 +1,71 @@
+body {
+    background-image: url(../imgs/los-angeles-desktop-wallpaper-for-background-free-download-city-images-2.jpg);
+    background-attachment: fixed;
+}
+h1 {
+    font-family: Herculanum;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+h3 { 
+font-family: Herculanum;
+text-align: center;
+color: black;
+}
+h2 { 
+font-family: Herculanum;
+text-align: center;
+color: black;
+}
+
+p { 
+font-family: Herculanum;
+text-align: justify;
+color: black;
+font-weight: bold;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+xmp {
+display: block;
+margin-left: 350px;
+}
+footer {
+    margin-top: 300px;
+    font-family: Herculanum;
+    color: pink;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 5em;
+    -webkit-margin-start: 1px;
+    -webkit-margin-end: 5px;
+    -webkit-padding-start: 40px;
+}
+li {
+    float: left;
+    padding-right: 170px;
+    font-weight: bold;
+    font-family: Herculanum;
+    font-size: 18px;
+}
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+    {
+    background-color: purple;
