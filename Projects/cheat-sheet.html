@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ruby Enumberable Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/cheatsheet.css">
+</head>
+<body>
+  <ul>
+  <li><a href="http://andriayr.github.io/">Home</a></li>
+  <li><a href="http://andriayr.github.io/blog/blogindex.html">Blog Index</a></li>
+ <li><a href="http://andriayr.github.io/blog/about.html">About Me </a></li>
+  <li><a href="http://andriayr.github.io/blog/project-page.html">Projects</a></li>
+
+  </ul>
+
+<main>
+  <header>
+    <h1>Ruby Enumerables Cheat Sheet</h1>
+    <p>Ruby’s Enumerable is an example of how modules should be made. It offers a large collection of methods that are useful for those handling data structures and only requires you to implement a single method, each. So, any class that could behave like a collection and implement an each method can be used as an Enumerable.
+<hr></hr>
+<p>
+  </header>
+  <nav>
+    <a href="#all?">All?</a>
+    <a href="#any?">Any?</a>
+    <a href="#collect">Collect/Map</a>
+    <a href="#count">Count</a>
+    <a href="#detect">Detect</a>
+    <a href="#each_slice">Each_Slice</a>
+    <a href="#each_with_index">Each_With_Index</a>
+    <a href="#inject">Inject</a>
+    <a href="#select">Select</a>
+  </nav>
+
+<article>
+  <section><h2><a name = "all?">All?</a></h2>
+    <p>Returns true if everything in the block returns true.</p>
+    <pre>
+    <code>
+      ["hi","bye","cry"].all?{|word| word.length == 3} #returns true
+      ["hi","bye","cry"].all?{|word| word.length == 3} #returns false
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "any?">Any?</a></h2>
+    <p>Returns true if anything in the block returns true.</p>
+    <pre>
+    <code>
+      ["hi","bye","cry","andria"].any?{|word| word.length == 6} #returns true
+      ["hi","bye","my"].any?{|word| word.length == 6} #returns false
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "collect">Collect / Map</a></h2>
+    <p>Returns a new array with the result of the running block, once for every element.(See also .map)(Both map and collect have destructive versions !)</p>
+    <pre>
+    <code>
+      ["cat","bat","rat"].collect{|word| word * 2}
+        #returns ["catcat", "batbat", "ratrat"]
+      [1,2,3,4,5].map!{|integer| integer * 5}
+        #returns [5,10,15,20,25]
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "count">Count</a></h2>
+    <p>Count counts how many times an object is in the enumberable, or give it a block and it will tell you how many times the block returns true.</p>
+    <pre>
+    <code>
+      ["fat","rat","sat"].count{|word| word.length == 3} #returns 3
+      ["tat","eat","crap"].count{|word| word.length == 3} #returns 2
+      ["jon","con","long"].count{|word| word == "con"} #returns 1
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "detect">Detect</a></h2>
+    <p>Detect returns the first object that is found to be true and if it is not found it returns nil.</p>
+    <pre>
+    <code>
+      ["cats","bat","mat"].detect{|word| word.length == 3} #returns bat
+      ["cat","bat","hats"].detect{|word| word.length == 5} #returns nil
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "each_cons">Each_Slice</a></h2>
+    <p>Itterate the given block, it slices up the enumerable and passes the slices into the block. It passes an array of values with a length = to the arguement.</p>
+    <pre>
+    <code>
+      return_array = []
+      ["cat","bat","sat","rack","fat","andria"].each_slice(2){|words| return_array << (words[0] + words[1])}
+       #returns nil, but adds values to return_array["catbat","satrack","fatandria"]
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "each_with_index">Each_With_Index</a></h2>
+    <p>Each_with_index itterates over an enumerable, but passes in a count parameter that increments by one each time.</p>
+    <pre>
+    <code>
+      array = []
+      ["cat","bat","pat"].each_with_index{|word, count| word.length + count}
+        #array = [3,4,5]
+      ["cat","bat","pats"].each_with_index{|word, count| array << word << count}
+        #array = [cat,0,bat,1,pats,2]
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "inject">Inject</a></h2>
+    <p>Combines all elements of enum by applying a binary operation, specified by a block or a symbol that names a method or operator.</p>
+    <pre>
+    <code>
+      ["fat","cat","bat"].inject(:+)
+        #returns "fatcatbat"
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "select">Select</a></h2>
+    <p>Returns an array containing all elements of the enumerator for which the block returns a true value.</p>
+    <pre>
+    <code>
+      ["cat","bats","mat","rats"].select{|word| word.length == 4}
+        #array = ["bats","rats"]
+      ["cat","bat","hats"].select{|word| word == "bat"}
+        #array = ["bat"]
+    </code>
+    </pre>
+  </section>
+</article>
+</main>
+<footer> <a href="https://www.linkedin.com/in/andria-reta-msg-mha-87424127?trk=hp-identity-headline"><img src="../imgs/linked-in.png" alt="Fb" height="50" width="50"/> <a href="https://www.facebook.com/miss.reta.3"><img src="../imgs/facebook.png" alt="Fb" height="50" width="50"/> <a href="mailto:reta.andriay@gmail.com"><img src="../imgs/google.png" alt="Fb" height="50" width="50"/></footer>
+<h6> Copyright &copy; Andria Reta 2015-2016</h6>
+</body>
+</html>
